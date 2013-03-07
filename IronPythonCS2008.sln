@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronPythonCS", "IronPythonCS\IronPythonCS.csproj", "{22C3C245-3597-42AA-B1EA-FB87A5826BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCalled", "CsCalled\CsCalled.csproj", "{13D89717-671F-4650-AF4E-5E7017B2DD1C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00DB0EA0-EF61-40FB-875C-F1BD9410DF37} = {00DB0EA0-EF61-40FB-875C-F1BD9410DF37}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sampleForm", "sampleForm\sampleForm.csproj", "{00DB0EA0-EF61-40FB-875C-F1BD9410DF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{B0C869A2-4174-4CE3-83C4-B44FE0E0F636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C3C245-3597-42AA-B1EA-FB87A5826BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C3C245-3597-42AA-B1EA-FB87A5826BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C3C245-3597-42AA-B1EA-FB87A5826BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C3C245-3597-42AA-B1EA-FB87A5826BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D89717-671F-4650-AF4E-5E7017B2DD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D89717-671F-4650-AF4E-5E7017B2DD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D89717-671F-4650-AF4E-5E7017B2DD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D89717-671F-4650-AF4E-5E7017B2DD1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DB0EA0-EF61-40FB-875C-F1BD9410DF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DB0EA0-EF61-40FB-875C-F1BD9410DF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DB0EA0-EF61-40FB-875C-F1BD9410DF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DB0EA0-EF61-40FB-875C-F1BD9410DF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C869A2-4174-4CE3-83C4-B44FE0E0F636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C869A2-4174-4CE3-83C4-B44FE0E0F636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C869A2-4174-4CE3-83C4-B44FE0E0F636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C869A2-4174-4CE3-83C4-B44FE0E0F636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
